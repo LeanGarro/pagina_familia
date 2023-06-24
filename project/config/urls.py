@@ -23,4 +23,5 @@ urlpatterns = [
     path("inicio/", views.inicio),
     path("inicio/hermanos", views.hermanos),
     path("inicio/padres", views.padres),
+    path("inicio/abuelos", views.abuelos),
 ]
