@@ -33,6 +33,3 @@ def abuelos(request):
     mi_contexto = Context()
     mi_documento = mi_template.render(mi_contexto)
     return HttpResponse(mi_documento)
-
-def hermano(request):
-    return  HttpResponse("<h1>hola soy hermanos<h1>")
