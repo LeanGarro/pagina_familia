@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from django.template import Context, Template
 
 
-def hermanos(request):
+def inicio(request):
     mi_html = open("./templates/template1.html")
     mi_template = Template(mi_html.read())
     mi_html.close()
